@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "author": "kazuya gosho",
+  "name": "e4628",
+  "description": "block qiita advertisement",
+  "version": "0.0.1",
+  "homepage_url": "https://github.com/acro5piano/e4628",
+  "content_scripts": [
+    {
+      "matches": ["https://www.e4628.jp/*"],
+      "js": ["main.js"]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "https://www.e4628.jp/*"
+  ]
+}
